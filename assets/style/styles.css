@@ -13,3 +13,26 @@ body {
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
 }
+
+.principal {
+    background-image: url("/assets/img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 100vh;
+}
+.container__botao {
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    display: block;
+    text-decoration: none;
+    color: var(--branco-principal);
+}
+.container__botao__secundario {
+    background-color: transparent;
+    border:  2px solid var(--branco-principal);
+}
